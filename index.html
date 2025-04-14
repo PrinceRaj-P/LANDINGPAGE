@@ -1,52 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Beginner Landing Page</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeHome Services | Professional Home Maintenance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <header>
-    <nav>
-      <h1>MyLanding</h1>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Prime<span>Home</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#contact" class="btn">Book Now</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
-  <section class="hero">
-    <h2>Welcome to My Landing Page</h2>
-    <p>Create beautiful websites with ease.</p>
-    <button onclick="showAlert()">Get Started</button>
-  </section>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Professional Home Services at Your Doorstep</h1>
+                <p>Reliable, affordable, and high-quality home maintenance solutions for busy homeowners.</p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="features" class="section">
-    <h3>Features</h3>
-    <div class="columns">
-      <div class="box">Responsive Layout</div>
-      <div class="box">Easy to Customize</div>
-      <div class="box">Clean Code</div>
-    </div>
-  </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">We provide comprehensive home maintenance solutions</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>House Cleaning</h3>
+                    <p>Thorough cleaning services including deep cleaning, regular maintenance, and post-construction cleanup.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Handyman Services</h3>
+                    <p>From furniture assembly to minor repairs, we handle all your small home projects.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-faucet"></i>
+                    </div>
+                    <h3>Plumbing</h3>
+                    <p>Leak repairs, drain cleaning, fixture installation, and other plumbing needs.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Electrical</h3>
+                    <p>Safe and professional electrical repairs, installations, and upgrades.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Painting</h3>
+                    <p>Interior and exterior painting services with premium materials.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Landscaping</h3>
+                    <p>Lawn care, gardening, and outdoor space maintenance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="about" class="section">
-    <h3>About This Page</h3>
-    <p>This project helps beginners practice HTML, CSS, and JavaScript by building a simple, clean landing page. Focus on layout, colors, and structure.</p>
-  </section>
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Why Choose PrimeHome?</h2>
+                <p>We're committed to providing exceptional home services with a focus on quality, reliability, and customer satisfaction.</p>
+                
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-check-circle"></i>
+                        <h3>Licensed Professionals</h3>
+                        <p>All our technicians are licensed, insured, and background-checked.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>Transparent Pricing</h3>
+                        <p>No hidden fees. Get upfront pricing before any work begins.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="fas fa-clock"></i>
+                        <h3>On-Time Service</h3>
+                        <p>We value your time and guarantee punctual arrivals.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <i class="fas fa-thumbs-up"></i>
+                        <h3>Satisfaction Guarantee</h3>
+                        <p>If you're not happy, we'll make it right.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Happy homeowner">
+            </div>
+        </div>
+    </section>
 
-  <section id="contact" class="section">
-    <h3>Contact Us</h3>
-    <p>Email us at: <a href="mailto:hello@example.com">hello@example.com</a></p>
-  </section>
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Don't just take our word for it</p>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"PrimeHome transformed my messy house into a spotless home in just a few hours. The cleaners were thorough and professional. Highly recommend!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Sarah J.">
+                            <div>
+                                <h4>Sarah J.</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The handyman fixed multiple issues around my house in one visit - from a leaky faucet to a squeaky door. Great service at a fair price."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael T.">
+                            <div>
+                                <h4>Michael T.</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"I've used PrimeHome for regular lawn care and seasonal cleanups. They're reliable and do excellent work every time."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Lisa M.">
+                            <div>
+                                <h4>Lisa M.</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 MyLanding. All rights reserved.</p>
-  </footer>
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-form">
+                <h2 class="section-title">Get a Free Quote</h2>
+                <p>Fill out the form below and we'll get back to you within 24 hours</p>
+                
+                <form id="quoteForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" id="phone" placeholder="Your Phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select a Service</option>
+                            <option value="cleaning">House Cleaning</option>
+                            <option value="handyman">Handyman Services</option>
+                            <option value="plumbing">Plumbing</option>
+                            <option value="electrical">Electrical</option>
+                            <option value="painting">Painting</option>
+                            <option value="landscaping">Landscaping</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Tell us about your project"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit Request</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>123 Service Ave, Hometown, HT 12345</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>(555) 123-4567</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@primehome.example</p>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Monday - Friday: 8am - 6pm<br>Saturday: 9am - 4pm<br>Sunday: Closed</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>PrimeHome</h3>
+                    <p>Professional home services with a commitment to quality and customer satisfaction.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">House Cleaning</a></li>
+                        <li><a href="#">Handyman</a></li>
+                        <li><a href="#">Plumbing</a></li>
+                        <li><a href="#">Electrical</a></li>
+                        <li><a href="#">Painting</a></li>
+                        <li><a href="#">Landscaping</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe for tips and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 PrimeHome Services. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
